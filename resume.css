@@ -27,8 +27,12 @@
     font-size: 2.2rem;
     font-weight: bold;
 }
-#logo{
+#logo {
     width: 16rem;
+    position: absolute;
+    top: .5rem;
+    left: 0;
+    z-index: 1;
 }
 .navbar-toggler{
     /*position: absolute;*/
@@ -241,6 +245,17 @@ i{
         display: none;
 
     }
+    .navbar-toggler{
+        width: 2.4rem;
+        height: 2.4rem;
+        border-radius: 2px;
+    }
+    .navbar-toggler-icon{
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 0;
+        margin:0;
+    }
     #about-icons{
         width: 100%;
     }
@@ -266,8 +281,22 @@ i{
         border-radius: 15px;
         transition: .5s;
     }
-    #logo{
+    .navbar-toggler{
+        width: 2.4rem;
+        height: 2.4rem;
+        border-radius: 2px;
+    }
+    .navbar-toggler-icon{
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 0;
+        margin:0;
+    }
+    #logo {
         width: 16rem;
+        position: absolute;
+        top: .5rem;
+        left: 0;
     }
     .navbar-collapse{
         margin-left:0;
@@ -286,7 +315,7 @@ i{
 
 @media (max-width: 730px) {
     #logo {
-        width: 10rem;
+        width: 16rem;
         position: absolute;
         top: .5rem;
         left: 0;
@@ -324,5 +353,17 @@ i{
     }
     h2{
         letter-spacing: 0.1rem;
+    }
+}
+@media (max-width: 400px){
+    #logo{
+        width: 12rem;
+    }
+    #pic-ctr{
+        margin: 4rem 0 0 0;
+    }
+    .navbar-toggler{
+        width: 2.5rem;
+        height: 2.5rem;
     }
 }

@@ -40,7 +40,7 @@ body{
 
 }
 #logo{
-    width: 26rem;
+    width: 18rem;
     position: absolute;
     top: 1.5rem;
     left: 0;
@@ -48,12 +48,12 @@ body{
 }
 .navbar-toggler{
     /*position: absolute;*/
-    width: 6rem;
-    height: 6rem;
+    width: 10%;
+    height: 10%;
 }
 .navbar-toggler-icon{
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 2rem;
+    height: 2rem;
 }
 .navbar-collapse{
     color: black;
@@ -84,10 +84,10 @@ header {
 }
 #image-ctr {
     position: relative;
-    margin: 18rem 0 0 0;
+    margin: 2rem 0 0 0;
 }
 #hero-img{
-    width: 70%;
+    width: 60%;
 }
 h2 {
     position: absolute;
@@ -304,8 +304,7 @@ i {
     color:#7b7a79 ;
 }
 
-@media (min-width: 768px){
-}
+
 @media (min-width: 992px){
     #navbar{
         font-size: 1.5rem;
@@ -364,7 +363,7 @@ i {
         width: 20%;
     }
     #mein-projekten{
-        margin-bottom: 0;
+        margin-bottom: 2rem;
     }
     #projects-ctr .card-img-top{
         height: 16rem;
@@ -390,8 +389,20 @@ i {
         transition: .5s;
         transform: none;
     }
-
-
-
-
+}
+@media (min-width: 500px){
+    #logo{
+        width: 19rem;
+    }
+    .navbar-toggler{
+        width: 4rem;
+        height: 4rem;
+    }
+    .navbar-toggler-icon{
+        width: 2rem;
+        height: 2rem;
+    }
+    #projects-ctr .card{
+        width: 30rem;
+    }
 }
