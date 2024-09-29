@@ -246,8 +246,8 @@ i{
 
     }
     .navbar-toggler{
-        width: 2.4rem;
-        height: 2.4rem;
+        width: 3rem;
+        height: 3rem;
         border-radius: 2px;
     }
     .navbar-toggler-icon{
@@ -282,8 +282,8 @@ i{
         transition: .5s;
     }
     .navbar-toggler{
-        width: 2.4rem;
-        height: 2.4rem;
+        width: 3rem;
+        height: 3rem;
         border-radius: 2px;
     }
     .navbar-toggler-icon{
@@ -331,8 +331,8 @@ i{
         padding: .3rem .3rem 0 0;
     }
     .navbar-toggler{
-        width: 2.4rem;
-        height: 2.4rem;
+        width: 3rem;
+        height: 3rem;
         border-radius: 2px;
     }
     .navbar-toggler-icon{
@@ -357,13 +357,13 @@ i{
 }
 @media (max-width: 400px){
     #logo{
-        width: 12rem;
+        width: 14rem;
     }
     #pic-ctr{
         margin: 4rem 0 0 0;
     }
     .navbar-toggler{
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 3rem;
+        height: 3rem;
     }
 }
