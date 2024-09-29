@@ -40,7 +40,7 @@ body{
 
 }
 #logo{
-    width: 18rem;
+    width: 25rem;
     position: absolute;
     top: 1.5rem;
     left: 0;
@@ -48,12 +48,12 @@ body{
 }
 .navbar-toggler{
     /*position: absolute;*/
-    width: 10%;
-    height: 10%;
+    width: 5rem;
+    height: 5rem;
 }
 .navbar-toggler-icon{
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 .navbar-collapse{
     color: black;
@@ -267,7 +267,6 @@ i {
 /*projects start here*/
 
 #projects-ctr .card-body{
-
     background-color: #e0e0e0;
     height: 100%;
 }
@@ -276,7 +275,7 @@ i {
 }
 #projects-ctr .card{
     position: relative;
-    width: 35rem;
+    width: 40rem;
     margin: 40px 0;
 }
 #projects-ctr .card-title{
@@ -371,6 +370,7 @@ i {
     #projects-ctr .card{
         opacity: .5;
         z-index: 0;
+        width: 40rem;
     }
     #projects-ctr .active{
         position: absolute;
@@ -390,9 +390,9 @@ i {
         transform: none;
     }
 }
-@media (min-width: 500px){
+@media (max-width: 700px){
     #logo{
-        width: 19rem;
+        width:18rem;
     }
     .navbar-toggler{
         width: 4rem;
@@ -405,4 +405,18 @@ i {
     #projects-ctr .card{
         width: 30rem;
     }
+}
+@media (max-width: 450px){
+    #logo{
+        width:20rem;
+    }
+    .navbar-toggler{
+        width: 4rem;
+        height: 4rem;
+    }
+    .navbar-toggler-icon{
+        width: 2rem;
+        height: 2rem;
+    }
+
 }
