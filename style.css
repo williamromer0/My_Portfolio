@@ -28,7 +28,7 @@ html{
 body{
     /*background-color:#e0e0e0;*/
     /*background-color: rgb(240,240,240);*/
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 #body-ctr{
@@ -184,7 +184,8 @@ h3{
     width: 100%;
 }
 #about-img{
-    width: 90%;
+    width: 80%;
+    height: 90%;
     max-width: 1200px;
     /*height: 70rem;*/
     margin-bottom: 100px;
@@ -193,14 +194,14 @@ h3{
 
 
 #about-text{
-    width: 90%;
+    width: 80%;
     margin-left: 5px;
     font-weight: 400;
     font-size: 1.8rem;
 }
 #tech-stack-ctr{
     margin: 20px 0 110px;
-    width: 100%;
+    width: 90%;
     height: 100%;
     position: relative;
     box-sizing: border-box;
@@ -265,7 +266,9 @@ i {
 }
 
 /*projects start here*/
-
+#projects-ctr{
+    width: 100%;
+}
 #projects-ctr .card-body{
     background-color: #e0e0e0;
     height: 100%;
@@ -303,8 +306,7 @@ i {
     color:#7b7a79 ;
 }
 
-
-@media (min-width: 992px){
+@media (min-width: 1200px){
     #navbar{
         font-size: 1.5rem;
     }
@@ -318,6 +320,7 @@ i {
     }
     #logo{
         width: 18rem;
+        top: 2rem;
     }
     .navbar-collapse{
         margin-left:0;
@@ -390,9 +393,18 @@ i {
         transform: none;
     }
 }
+@media (max-width: 1200px){
+    #logo{
+        width: 15rem;
+    }
+    .navbar-toggler{
+        width: 4rem;
+        height: 4rem;
+    }
+}
 @media (max-width: 700px){
     #logo{
-        width:18rem;
+        width:15rem;
     }
     .navbar-toggler{
         width: 4rem;

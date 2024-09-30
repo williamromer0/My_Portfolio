@@ -28,9 +28,9 @@
     font-weight: bold;
 }
 #logo {
-    width: 16rem;
+    width: 15rem;
     position: absolute;
-    top: .5rem;
+    top: 1.5rem;
     left: 0;
     z-index: 1;
 }
@@ -246,13 +246,13 @@ i{
 
     }
     .navbar-toggler{
-        width: 3rem;
-        height: 3rem;
+        width: 4rem;
+        height: 4rem;
         border-radius: 2px;
     }
     .navbar-toggler-icon{
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 2rem;
+        height: 2rem;
         padding: 0;
         margin:0;
     }
@@ -295,7 +295,7 @@ i{
     #logo {
         width: 16rem;
         position: absolute;
-        top: .5rem;
+        top: 2rem;
         left: 0;
     }
     .navbar-collapse{
@@ -315,9 +315,9 @@ i{
 
 @media (max-width: 730px) {
     #logo {
-        width: 16rem;
+        width: 15rem;
         position: absolute;
-        top: .5rem;
+        top: 1.5rem;
         left: 0;
     }
     .navbar{
@@ -331,13 +331,14 @@ i{
         padding: .3rem .3rem 0 0;
     }
     .navbar-toggler{
-        width: 3rem;
-        height: 3rem;
-        border-radius: 2px;
+        width: 4rem;
+        height: 4rem;
+        margin: .2rem .4rem 0 0;
+        border-radius: 5px;
     }
     .navbar-toggler-icon{
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 2rem;
+        height: 2rem;
         padding: 0;
         margin:0;
     }
@@ -357,7 +358,8 @@ i{
 }
 @media (max-width: 400px){
     #logo{
-        width: 14rem;
+        width: 12rem;
+        top:1rem;
     }
     #pic-ctr{
         margin: 4rem 0 0 0;
