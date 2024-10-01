@@ -28,18 +28,19 @@
     font-weight: bold;
 }
 #logo {
-    width: 15rem;
+    width: 300px;
     position: absolute;
     top: 1.5rem;
     left: 0;
     z-index: 1;
 }
 .navbar-toggler{
-    /*position: absolute;*/
-    padding: 0;
+    width: 70px;
+    height: 70px;
 }
 .navbar-toggler-icon{
-
+    width: 35px;
+    height: 35px;
 }
 .navbar-collapse{
     color: black;
@@ -245,17 +246,6 @@ i{
         display: none;
 
     }
-    .navbar-toggler{
-        width: 4rem;
-        height: 4rem;
-        border-radius: 2px;
-    }
-    .navbar-toggler-icon{
-        width: 2rem;
-        height: 2rem;
-        padding: 0;
-        margin:0;
-    }
     #about-icons{
         width: 100%;
     }
@@ -281,23 +271,7 @@ i{
         border-radius: 15px;
         transition: .5s;
     }
-    .navbar-toggler{
-        width: 3rem;
-        height: 3rem;
-        border-radius: 2px;
-    }
-    .navbar-toggler-icon{
-        width: 1.5rem;
-        height: 1.5rem;
-        padding: 0;
-        margin:0;
-    }
-    #logo {
-        width: 16rem;
-        position: absolute;
-        top: 2rem;
-        left: 0;
-    }
+
     .navbar-collapse{
         margin-left:0;
     }
@@ -314,12 +288,7 @@ i{
 }
 
 @media (max-width: 730px) {
-    #logo {
-        width: 15rem;
-        position: absolute;
-        top: 1.5rem;
-        left: 0;
-    }
+
     .navbar{
         padding:0;
     }
@@ -330,18 +299,7 @@ i{
         width: 100%;
         padding: .3rem .3rem 0 0;
     }
-    .navbar-toggler{
-        width: 4rem;
-        height: 4rem;
-        margin: .2rem .4rem 0 0;
-        border-radius: 5px;
-    }
-    .navbar-toggler-icon{
-        width: 2rem;
-        height: 2rem;
-        padding: 0;
-        margin:0;
-    }
+
     #resume-pic{
         margin: 0;
     }
@@ -357,10 +315,6 @@ i{
     }
 }
 @media (max-width: 400px){
-    #logo{
-        width: 12rem;
-        top:1rem;
-    }
     #pic-ctr{
         margin: 4rem 0 0 0;
     }

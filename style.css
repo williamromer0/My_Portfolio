@@ -40,20 +40,19 @@ body{
 
 }
 #logo{
-    width: 25rem;
+    width: 300px;
     position: absolute;
     top: 1.5rem;
     left: 0;
     z-index: 1;
 }
 .navbar-toggler{
-    /*position: absolute;*/
-    width: 5rem;
-    height: 5rem;
+    width: 70px;
+    height: 70px;
 }
 .navbar-toggler-icon{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 35px;
+    height: 35px;
 }
 .navbar-collapse{
     color: black;
@@ -99,7 +98,7 @@ h2 {
     letter-spacing: 5px;
 }
 #name {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #e0e0e0;
     mix-blend-mode: difference;
     animation: marquee 12s linear infinite;
@@ -130,11 +129,15 @@ h2 {
     cursor: pointer;
     transition: .5s;
 }
+#about-icons{
+    width: 80%;
+    margin: 10rem 0 14rem 0;
+}
 #greeting {
     width: 90%;
     margin: 100px 0;
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 #greeting span:nth-of-type(2){
@@ -144,7 +147,8 @@ h2 {
     background: rgb(43,50,132);
     background: linear-gradient(99deg, rgba(43,50,132,1) 0%, rgba(19,125,197,1) 63%);
     color: white;
-    width: 8rem;
+    width: 6rem;
+    height: 2rem;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -154,11 +158,14 @@ h2 {
     left: -20px;
 }
 #hi i {
-    font-size: 3rem;
+    font-size: 1.8rem;
+    position: relative;
+    margin: 1px;
 }
 h3{
     color: black;
-    font-size: 3.8rem;
+    width: 100%;
+    font-size: 2rem;
     letter-spacing: 1rem;
     /*font-weight: bold;*/
     /*text-decoration: underline;*/
@@ -176,7 +183,7 @@ h3{
     margin-top: -100px;
 }
 #arrow img{
-    height: 15rem;
+    height: 12rem;
     transform: rotate(80deg);
 }
 #about{
@@ -197,11 +204,11 @@ h3{
     width: 80%;
     margin-left: 5px;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 #tech-stack-ctr{
     margin: 20px 0 110px;
-    width: 90%;
+    width: 100%;
     height: 100%;
     position: relative;
     box-sizing: border-box;
@@ -211,7 +218,7 @@ h3{
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 100px;
-    padding: 50px;
+    padding: 40px;
 }
 
 .tech-stack-item{
@@ -393,42 +400,21 @@ i {
         transform: none;
     }
 }
-@media (max-width: 1200px){
-    #logo{
-        width: 15rem;
+
+@media (max-width: 650px){
+    #tech-stack-ctr{
+        padding:0;
     }
-    .navbar-toggler{
-        width: 4rem;
-        height: 4rem;
+    #tech-stack-ctr p{
+        padding: 40px;
     }
-}
-@media (max-width: 700px){
-    #logo{
-        width:15rem;
-    }
-    .navbar-toggler{
-        width: 4rem;
-        height: 4rem;
-    }
-    .navbar-toggler-icon{
-        width: 2rem;
-        height: 2rem;
+    #tech-stack-items-ctr{
+        width: 100%;
     }
     #projects-ctr .card{
-        width: 30rem;
-    }
-}
-@media (max-width: 450px){
-    #logo{
-        width:20rem;
-    }
-    .navbar-toggler{
-        width: 4rem;
-        height: 4rem;
-    }
-    .navbar-toggler-icon{
-        width: 2rem;
-        height: 2rem;
-    }
+        display: block;
+        width: 90%;
 
+    }
 }
+
