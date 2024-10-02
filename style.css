@@ -232,7 +232,7 @@ h3{
     width: 100%;
 }
 .tech-stack-item{
-    width: 20%;
+    width: 30%;
     height: 5rem;
     border-radius: 100px;
     background: linear-gradient(135deg,rgba(255,255,255,.2), rgba(255,255,255,0));
@@ -422,6 +422,9 @@ i {
         width: 200px;
         top: 1rem;
     }
+    #name{
+        font-size: 2rem;
+    }
     .navbar-collapse{
         margin-left: 45%;
     }
@@ -434,7 +437,7 @@ i {
         height: 25px;
     }
     #hero-img{
-        width: 40%
+        width: 50%
     }
     #image-ctr {
         margin: 7rem 0 0 0;
@@ -445,7 +448,21 @@ i {
     #tech-stack-ctr{
         padding:0;
     }
+    #tech-stack-items-ctr i{
+        font-size: 2rem;
+    }
+    #tech-stack-items-ctr p{
+        font-size: 1rem;
+    }
+    #tech-stack-items-ctr .card{
+        margin: 20px;
+        width: 6rem;
+        height: 6rem;
+    }
     #about-img{
+        width: 90%;
+    }
+    #about-text{
         width: 90%;
     }
     #tech-stack-items-ctr{
