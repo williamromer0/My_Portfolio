@@ -86,7 +86,7 @@ header {
     margin: 2rem 0 0 0;
 }
 #hero-img{
-    width: 60%;
+    width: 50%;
 }
 h2 {
     position: absolute;
@@ -131,10 +131,14 @@ h2 {
 }
 #about-icons{
     width: 80%;
-    margin: 10rem 0 14rem 0;
+    margin: 4rem 0 14rem 0;
 }
 #about-icons i {
     font-size: 2rem;
+}
+#about-icons i:hover{
+    color: black;
+    cursor: pointer;
 }
 #greeting {
     width: 90%;
@@ -226,7 +230,7 @@ h3{
     width: 100%;
 }
 .tech-stack-item{
-    width: 22%;
+    width: 20%;
     height: 5rem;
     border-radius: 100px;
     background: linear-gradient(135deg,rgba(255,255,255,.2), rgba(255,255,255,0));
@@ -410,7 +414,8 @@ i {
 
 @media (max-width: 650px){
     #logo{
-        width: 220px;
+        width: 200px;
+        top: 1rem;
     }
     .navbar-collapse{
         margin-left: 45%;
@@ -423,14 +428,21 @@ i {
         width: 25px;
         height: 25px;
     }
+    #hero-img{
+        width: 60%
+    }
     #image-ctr {
         margin: 7rem 0 0 0;
+    }
+    #about-icons{
+        margin-top: 6rem;
     }
     #tech-stack-ctr{
         padding:0;
     }
     #tech-stack-ctr p{
         padding: 40px;
+        margin: 0;
     }
     #tech-stack-items-ctr{
         width: 100%;
@@ -441,7 +453,7 @@ i {
 
     }
     #projects-ctr .card-img-top{
-        height: 18rem;
+        height: 16rem;
     }
     #projects-ctr p {
         font-size: 1rem;
