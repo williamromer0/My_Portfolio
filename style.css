@@ -86,7 +86,7 @@ header {
     margin: 2rem 0 0 0;
 }
 #hero-img{
-    width: 50%;
+    width: 30%;
 }
 h2 {
     position: absolute;
@@ -131,7 +131,7 @@ h2 {
 }
 #about-icons{
     width: 80%;
-    margin: 4rem 0 14rem 0;
+    margin: 2rem 0 14rem 0;
 }
 #about-icons i {
     font-size: 2rem;
@@ -141,7 +141,7 @@ h2 {
     cursor: pointer;
 }
 #greeting {
-    width: 90%;
+    width: 80%;
     margin: 100px 0;
     text-align: left;
     font-size: 1.5rem;
@@ -198,17 +198,16 @@ h3{
     width: 100%;
 }
 #about-img{
-    width: 90%;
-    height: 100%;
+    width: 60%;
     max-width: 1200px;
     /*height: 70rem;*/
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     border-radius: 15px;
 }
 
 
 #about-text{
-    width: 90%;
+    width: 60%;
     margin-left: 5px;
     font-weight: 400;
     font-size: 1.2rem;
@@ -226,6 +225,9 @@ h3{
     background-position: center;
     border-radius: 15px;
 }
+#tech-stack-header p{
+    padding:20px;
+}
 #tech-stack-items-ctr{
     width: 100%;
 }
@@ -239,9 +241,9 @@ h3{
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.4);
     overflow: hidden;
 }
-.tech-stack-item p{
-    padding: 0;
-}
+/*.tech-stack-item p{*/
+/*    padding: 0;*/
+/*}*/
 .card-body{
     width: 100%;
     height: 100%;
@@ -347,21 +349,23 @@ i {
         margin: 0;
     }
     #hero-img{
-        height: 40rem;
+        height: 30rem;
         width: 100%;
     }
     h2{
         font-size: 7rem;
     }
     #greeting{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     #hi{
-        width: 12rem;
+        width: 8rem;
+        height: 100%;
         top: 30px;
+        left: 50px;
     }
     #hi i{
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
     #about-img{
         width: 40%;
@@ -370,6 +374,7 @@ i {
     }
     #about-text{
         width: 50%;
+        padding: 40px;
     }
     .tech-stack-item{
         width: 25%;
@@ -429,7 +434,7 @@ i {
         height: 25px;
     }
     #hero-img{
-        width: 60%
+        width: 40%
     }
     #image-ctr {
         margin: 7rem 0 0 0;
@@ -440,9 +445,8 @@ i {
     #tech-stack-ctr{
         padding:0;
     }
-    #tech-stack-ctr p{
-        padding: 40px;
-        margin: 0;
+    #about-img{
+        width: 90%;
     }
     #tech-stack-items-ctr{
         width: 100%;
